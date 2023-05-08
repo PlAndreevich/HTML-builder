@@ -1,0 +1,13 @@
+{
+    "name": "my-app",
+    "version": "1.0.0",
+    "description": "Files in folder",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "bin": {
+      "03-files-in-folder": "03-files-in-folder/index.js"
+    }
+  }
+  

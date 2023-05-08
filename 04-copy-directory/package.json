@@ -1,0 +1,13 @@
+{
+    "name": "my-app",
+    "version": "1.0.0",
+    "description": "Copy directory",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "bin": {
+      "04-copy-directory": "04-copy-directory/index.js"
+    }
+  }
+  

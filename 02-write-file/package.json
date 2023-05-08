@@ -1,0 +1,13 @@
+{
+    "name": "my-app",
+    "version": "1.0.0",
+    "description": "Write file",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "bin": {
+      "02-write-file": "02-write-file/index.js"
+    }
+  }
+  

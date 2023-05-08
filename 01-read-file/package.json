@@ -1,0 +1,13 @@
+{
+    "name": "my-app",
+    "version": "1.0.0",
+    "description": "Read file",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "bin": {
+      "01-read-file": "01-read-file/index.js"
+    }
+  }
+  
