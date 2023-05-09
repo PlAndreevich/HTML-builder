@@ -13,7 +13,8 @@ async function main() {
         const fileSizeInKB = fileSizeInBytes / 1024;
         const fileSizeFormatted = `${fileSizeInKB.toFixed(3)}kb`;
         const fileExtension = path.extname(filePath).substring(1);
-        console.log(`${file.name} - ${fileExtension} - ${fileSizeFormatted}`);
+        const fileName = path.basename(filePath, path.extname(filePath));
+        console.log(`${fileName} - ${fileExtension} - ${fileSizeFormatted}`);
       }
     }
   } catch (error) {
